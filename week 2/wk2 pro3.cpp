@@ -52,5 +52,5 @@ int main() {
         int c = difference(arr, k);
         cout << c << endl;
     }
-    return 0;
+    return 0;
 }
