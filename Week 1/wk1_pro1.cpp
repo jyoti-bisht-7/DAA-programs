@@ -13,7 +13,6 @@ void LinearSearch(vector<int>arr,int key){
 	}
 	cout<<"Not present"<<cnt<<endl;
 }
-
 int main(){
 	int t;
 	cin>>t;
@@ -28,3 +27,4 @@ int main(){
 		LinearSearch(arr,key);
 	}
 }
+
