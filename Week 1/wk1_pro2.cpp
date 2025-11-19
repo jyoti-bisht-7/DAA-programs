@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 void BinarySearchrec(vector<int>arr,int low,int high,int &cnt,int key){
 	if(low>high){
 		cout<<"Not Present"<<cnt<<endl;
@@ -57,3 +56,4 @@ int main(){
 		BinarySearchrec(arr,0,n-1,cnt,key);
 	}
 }
+
